@@ -1,0 +1,122 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2602397800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestDefinition.object()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User Should be Able to Login to Techfios",
+        "description": "",
+        "id": "login-functionality-validation;user-should-be-able-to-login-to-techfios",
+        "after": [
+          {
+            "result": {
+              "duration": 725244099,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 783453600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch techfios website",
+            "match": {
+              "location": "TestDefinition.user_launch_techfios_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3501322201,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User inserts \"username\" from data base",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username",
+                  "offset": 14
+                }
+              ],
+              "location": "TestDefinition.user_inserts_from_data_base(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3117349100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User inserts \"password\" from data base",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password",
+                  "offset": 14
+                }
+              ],
+              "location": "TestDefinition.user_inserts_from_data_base(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3926429599,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "TestDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55869199,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should land on Dashboard Page",
+            "match": {
+              "location": "TestDefinition.user_should_land_on_Dashboard_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Scenario100"
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality Validation",
+    "description": "",
+    "id": "login-functionality-validation",
+    "keyword": "Feature",
+    "uri": "features/LoginFromDB.feature"
+  }
+]
