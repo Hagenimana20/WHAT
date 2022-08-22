@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 1893948200,
+  "duration": 1954718900,
   "status": "passed"
 });
 formatter.scenario({
@@ -53,7 +53,7 @@ formatter.match({
   "location": "TestDefinition.user_launch_techfios_website()"
 });
 formatter.result({
-  "duration": 1070384800,
+  "duration": 793496000,
   "status": "passed"
 });
 formatter.match({
@@ -66,7 +66,7 @@ formatter.match({
   "location": "TestDefinition.user_inserts_from_data_base(String)"
 });
 formatter.result({
-  "duration": 3282137400,
+  "duration": 3283838600,
   "status": "passed"
 });
 formatter.match({
@@ -79,25 +79,25 @@ formatter.match({
   "location": "TestDefinition.user_inserts_from_data_base(String)"
 });
 formatter.result({
-  "duration": 3088637600,
+  "duration": 3107771400,
   "status": "passed"
 });
 formatter.match({
   "location": "TestDefinition.user_clicks_on_login_button()"
 });
 formatter.result({
-  "duration": 4919035600,
+  "duration": 3855253000,
   "status": "passed"
 });
 formatter.match({
   "location": "TestDefinition.user_should_land_on_Dashboard_Page()"
 });
 formatter.result({
-  "duration": 43034800,
+  "duration": 43336800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 624794200,
+  "duration": 656597900,
   "status": "passed"
 });
 });
